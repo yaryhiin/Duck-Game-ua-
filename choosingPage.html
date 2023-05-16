@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="choosingPage.css">
+    <title>Duck Game</title>
+</head>
+<body>
+    
+    <div id="bg">
+        <div id="main">
+                <p id="top">Оберіть одну з чотирьох позицій</p>
+                <p id="desc">Гусак атакує обрану позицію
+                    зброєю високоточного влучання</p>
+            <div id="options">
+                <div id="option1">
+                    <button id="action1" onclick="chooseAction(1)">
+                        <img id="img1" src="images/inactive/mackwa.png">
+                    </button>
+                </div>
+                <div id="option2">
+                    <button id="action2" onclick="chooseAction(2)">
+                        <img id="img2" src="images/inactive/bunker.png">
+                    </button>
+                </div>
+                <div id="option3">
+                    <button id="action3" onclick="chooseAction(3)">
+                        <img id="img3" src="images/inactive/chrik.png">
+                    </button>
+                </div>
+                <div id="option4">
+                    <button id="action4" onclick="chooseAction(4)">
+                        <img id="img4" src="images/inactive/rubl.png">
+                    </button>
+                </div>
+            </div>
+            <div id="button">
+                <button id="action" onclick="loadPage('actionPage.html')">Запустити гуся</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

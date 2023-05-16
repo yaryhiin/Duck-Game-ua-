@@ -1,0 +1,64 @@
+div {
+    margin: 0 auto;
+}
+
+#bg {
+    position: relative;
+    width: 25%;
+    min-width: 365px;
+    min-height: 690px;
+    background: #a7d4f9;
+    border-radius: 15px;
+}
+
+#main-text p {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    top: 7%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'case' on;
+
+    color: #000000;
+}
+
+#button button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 80%;
+    height: 52px;
+    left: 10%;
+    top: 85%;
+    
+    background:#007AFF;
+    border-radius: 14px;
+    border-color: #007AFF;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#gus img {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    width: 80%;
+}

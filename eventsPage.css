@@ -1,0 +1,88 @@
+div {
+    margin: 0 auto;
+}
+
+#bg {
+    position: relative;
+    width: 25%;
+    min-width: 365px;
+    min-height: 690px;
+    background: #a7d4f9;
+    border-radius: 15px;
+}
+
+#top {
+    position: absolute;
+    width: 78%;
+    height: 5%;
+    left: 11%;
+    top: 2%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'case' on;
+
+    color: #070707;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 80%;
+    height: 52px;
+    left: 10%;
+    top: 85%;
+    
+    background:#007AFF;
+    border-radius: 14px;
+    border-color: #007AFF;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#list {
+    position: absolute;
+    display: grid;
+    grid-template-rows: 1fr;
+    top: 13%;
+    left: 5%;
+    width: 90%;
+    max-height: 70%;
+    overflow-y: auto;
+}
+
+.items {
+    background-color: #fff;
+    border-radius: 16px;
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+}
+
+.text {
+    order: 1;
+    margin-right: 30%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.image {
+    order: 2;
+    margin-top: 2%;
+}
